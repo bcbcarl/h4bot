@@ -1,0 +1,18 @@
+version: '3.3'
+
+services:
+  h4bot:
+    image: h4bot
+    command: yarn start
+    env_file:
+      - ./secrets.env
+    environment:
+      TZ: Asia/Taipei
+    volumes:
+      - ".:/${APP_DIR}"
+    working_dir: "/${APP_DIR}"
+    expose:
+      - "${PORT}"
+      - "${EMULATOR_PORT}"
+    ports:
+      - "${PORT}:${PORT}"

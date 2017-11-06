@@ -1,0 +1,4 @@
+[submodule ".yarn_mirror"]
+	path = .yarn_mirror
+	url = https://github.com/bcbcarl/h4bot.git
+	branch  = yarn-mirror

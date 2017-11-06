@@ -1,21 +1,29 @@
 {
-  "name": "QnABot",
-  "version": "1.0.0",
+  "name": "h4bot",
+  "version": "0.0.1",
   "description": "",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "azure-publish": "node publish.js"
+  "main": "server.js",
+  "engines": {
+    "node": ">= 8.9.0"
   },
-  "author": "",
-  "license": "ISC",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint server.js src/**"
+  },
+  "author": "Carl X. Su <bcbcarl@gmail.com>",
+  "license": "MIT",
   "dependencies": {
-    "botbuilder": "^3.8.4",
-    "restify": "^5.0.0",
-    "botbuilder-cognitiveservices": "^1.0.1"
+    "botbuilder": "3.8.4",
+    "botbuilder-cognitiveservices": "1.0.1",
+    "restify": "5.0.0"
   },
   "devDependencies": {
-    "request": "^2.81.0",
-    "zip-folder": "^1.0.0"
+    "eslint": "4.11.0",
+    "eslint-plugin-node": "5.2.1",
+    "eslint-plugin-optimize-regex": "1.1.4",
+    "eslint-plugin-promise": "3.6.0",
+    "eslint-plugin-security": "1.4.0",
+    "request": "2.81.0",
+    "zip-folder": "1.0.0"
   }
 }
