@@ -1,14 +1,22 @@
 # h4bot
 
-Hacking Thursday AI Bot is built on the following services:
+Hacking Thursday AI Bot is built on top of the following services:
 
 * [Azure Bot Service][azure-bot-service]
 * [Bot Builder SDK for Node.js][botbuilder]
+* [Visual Studio Team Services][vsts]
 * [QnA Maker API][qna-maker]
+
+Join h4bot on [Skype][join-skype] | [Telegram][join-telegram]
+
+![(Workflow)](workflow.png)
 
 [azure-bot-service]: https://azure.microsoft.com/en-us/services/bot-service/
 [botbuilder]: https://docs.microsoft.com/en-us/bot-framework/nodejs/
+[vsts]: https://www.visualstudio.com/team-services/
 [qna-maker]: https://qnamaker.ai/
+[join-skype]: https://join.skype.com/bot/7d0dabb2-0128-4bc5-b787-567a5cc34456
+[join-telegram]: https://telegram.me/carl_telegram_bot
 
 ## Prerequisites
 
@@ -43,3 +51,15 @@ make start
 make stop
 make yarn ARGS='config list'
 ```
+
+## License
+
+MIT
+
+## Privacy Policy
+
+(TBD)
+
+## Terms of Service
+
+(TBD)
